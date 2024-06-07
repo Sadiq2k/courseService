@@ -34,7 +34,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
 
-        image: sadi820/config-server-algonexus
+        image: sadi820/course-service-algonexus
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
